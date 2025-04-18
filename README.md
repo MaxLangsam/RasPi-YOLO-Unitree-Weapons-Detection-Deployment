@@ -122,7 +122,6 @@ Export for IMX500 quantization:
 python yolo_train.py \
     --init_model /path/to/trained_model.pt \
     --export_format imx \
-    --export_config /path/to/onnx_config.yaml \
     --export_only \
     --int8_weights
 ```
