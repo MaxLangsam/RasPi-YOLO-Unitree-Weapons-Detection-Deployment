@@ -1,4 +1,4 @@
-# RasPi_DeploymentS
+# RasPi_Deployment
 
 Training and deploying YOLO object detection models on Raspberry Pi AI Camera or Hailo AI HAT devices.
 
