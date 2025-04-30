@@ -11,7 +11,7 @@ git clone and run setup script for hailo model zoo (i've had issues with install
 https://github.com/hailo-ai/hailo_model_zoo/<br>
 Though I highly recommend using their docker container instead <br>
 https://hailo.ai/developer-zone/documentation/hailo-sw-suite-2025-01/?sp_referrer=suite/suite_install.html#docker-installation
-### On the RasPi 5
+### On the RasPi 4/5
 Install raspi Hailo software
 ```
 sudo apt install hailo-all
@@ -162,7 +162,7 @@ Set the `--hw-arch` to your Hailo accelerator type, Hailo 8 (26 TOPS): `hailo8` 
 hailomz compile --ckpt <yolo.onnx> --calib-path /path/to/calibration/imgs/dir/ --yaml path/to/yolov8n.yaml --classes <number of classes> --hw-arch hailo8
 ```
 
-### On the RasPi 5
+### On the RasPi 4/5
 Copy the `yolo.hef` file and `labels.txt` file from your PC <b>to the RasPi</b>, connect a camera, and run the Hailo picamera2 demo script!
 ```
 cd picamera2/examples/hailo/
