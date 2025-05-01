@@ -2,6 +2,9 @@
 
 Training and deploying YOLO object detection models on Raspberry Pi AI Camera or Hailo AI HAT devices.
 
+# Link to custom Dataset on Roboflow Universe
+https://universe.roboflow.com/weaponsdetection-fbbzq/gun_knife_v2/dataset/4
+
 # Prerequisites
 ## For Hailo accelerator (AI HAT)
 ### On your PC
