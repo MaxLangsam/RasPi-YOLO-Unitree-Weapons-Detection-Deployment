@@ -3,6 +3,7 @@
 Training and deploying YOLO object detection models on Raspberry Pi AI Camera or Hailo AI HAT devices.
 
 # Code to download my custom dataset from Roboflow Universe
+```
 !pip install roboflow
 
 from roboflow import Roboflow
@@ -10,7 +11,7 @@ rf = Roboflow(api_key="YOUR API KEY")
 project = rf.workspace("weaponsdetection-fbbzq").project("gun_knife_v2")
 version = project.version(4)
 dataset = version.download("yolov8")
-                
+```                
 
 # Prerequisites
 ## For Hailo accelerator (AI HAT)
