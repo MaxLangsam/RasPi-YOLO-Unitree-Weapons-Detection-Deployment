@@ -11,8 +11,13 @@ rf = Roboflow(api_key="YOUR API KEY")
 project = rf.workspace("weaponsdetection-fbbzq").project("gun_knife_v2")
 version = project.version(4)
 dataset = version.download("yolov8")
-```                
+```
+# Installation
 
+## Install required packages:
+```
+pip install -r requirements.txt
+```
 # Prerequisites
 ## For Hailo accelerator (AI HAT)
 ### On your PC
