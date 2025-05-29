@@ -1,0 +1,18 @@
+# Core dependencies
+Pillow
+numpy
+opencv-python
+tqdm
+torch
+
+# Ultralytics YOLO
+ultralytics
+
+# PiCamera2 and hardware-specific dependencies (typically installed via apt on Raspberry Pi)
+# These are included for completeness, but may require manual setup or specific OS support
+picamera2 @ git+https://github.com/raspberrypi/picamera2.git
+imx500-inference @ git+https://github.com/raspberrypi/picamera2.git
+
+# Optional: Hailo support (requires specific hardware and SDK)
+# You may need to manually install the Hailo SDK:
+# https://hailo.ai/developer-zone/
